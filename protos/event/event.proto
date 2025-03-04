@@ -24,10 +24,10 @@ service EventService {
 
 enum EventType {
   UNSPECIFIED = 0;
-  EVENT_TYPE_CORE_EVENT = 1;
-  EVENT_TYPE_MESSAGE = 2;
-  EVENT_TYPE_NOTICE = 3;
-  EVENT_TYPE_REQUEST = 4;
+  CORE_EVENT = 1;
+  MESSAGE = 2;
+  NOTICE = 3;
+  REQUEST = 4;
 }
 
 message RequestPushEvent {
